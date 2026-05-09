@@ -1,0 +1,19 @@
+# Folder Images
+
+Folder ini untuk screenshot hasil project — sangat disarankan diisi agar README terlihat menarik.
+
+## Yang sebaiknya di-screenshot dari notebook:
+
+1. **`forecast_result.png`** — grafik prediksi vs aktual untuk 24 jam ke depan (cell #59)
+2. **`training_curves.png`** — perbandingan training/val loss 3 model (cell #53)
+3. **`correlation_heatmap.png`** — heatmap korelasi antar fitur (cell #8)
+4. **`decomposition.png`** — hasil seasonal decomposition (cell #15)
+5. **`acf_pacf.png`** — analisis ACF & PACF (cell #18)
+
+Cara menambahkan ke README:
+
+```markdown
+![Forecast Result](images/forecast_result.png)
+```
+
+Setelah file gambar ditambahkan, hapus file `.gitkeep` ini.
